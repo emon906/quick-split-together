@@ -30,11 +30,10 @@
         }
        </style>
 </head>
-<body class="bg-[#201B31]">
-    <!-- header start -->
-     <header class="bg-[#211B31] min-h-screen">
-<!-- navber -->
-      <div class="navbar  md:container md:mx-auto bg-[#1E1D31] font-Plus-Jakarta">
+<body class="bg-[#201B31]" id="root">
+  <!-- navber -->
+        <div class="navbar md:container top-0  md:mx-auto  bg-gradient-to-r from-[#0D0D26]/60 via-[#3B3B98]/40 to-[#0D0D26]/60 
+              backdrop-blur-2xl fixed left-0 w-full z-50  font-Plus-Jakarta rounded-2xl shadow-lg" style="box-shadow:  0 4px 15px rgba(0,0,0,0.5); position: sticky;">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -54,10 +53,10 @@
       <ul
         tabindex="0"
         class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2">
-        <li><a class="text-sm hover:text-white font-medium text-[#D1D5DB]">Features</a></li>
-        <li><a class="text-sm hover:text-white font-medium text-[#D1D5DB]">App</a></li>
-        <li><a class="text-sm hover:text-white font-medium text-[#D1D5DB]">Testimonials</a></li>
-        <li><a class="text-sm hover:text-white font-medium text-[#D1D5DB]">Contact</a></li>
+        <li><a href="#Features" class="text-sm hover:text-white font-medium text-[#D1D5DB]">Features</a></li>
+        <li><a href="#App" class="text-sm hover:text-white font-medium text-[#D1D5DB]">App</a></li>
+        <li><a href="#Testimonials" class="text-sm hover:text-white font-medium text-[#D1D5DB]">Testimonials</a></li>
+        <li><a href="#Contact" class="text-sm hover:text-white font-medium text-[#D1D5DB]">Contact</a></li>
       </ul>
     </div>
     <div class="flex justify-center items-center gap-2" >
@@ -79,6 +78,8 @@
   </div>
 </div>
      <!-- navber -->
+    <!-- header start -->
+     <header class="bg-[#211B31] min-h-screen py-4">
      <!-- hero -->
       <div class="hero bg-[#201B31] py-12">
   <div class="hero-content flex-col lg:flex-row-reverse gap-20">
@@ -272,8 +273,8 @@
             <div class="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-10">
               <!-- hero -->
              <div
-  class="hero rounded-2xl "
-  style="background-image: url(img/8.png); background-position: center; background-repeat: no-repeat;background-size: cover;">
+  class="hero rounded-2xl"
+  style="background-image:url(img/8.png); background-position: center; background-repeat: no-repeat;background-size: cover;">
   <div class="hero flex items-end  px-6 md:py-10 py-24">
     <div class="md:mt-[600px] mt-[500px]">
       <h1 class="text-lg font-semibold text-indigo-400">Smart Expense Tracking</h1>

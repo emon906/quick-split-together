@@ -1,1 +1,2 @@
 w-[320px] h-[500px]
+amr navbar ta website scroll korle nicha jay kintu shudhu header porjonto  but ami chai puro website scroll korle niche navbar tao jay ei je amr code dekho to ki porblem hosse
